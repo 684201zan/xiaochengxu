@@ -1,0 +1,36 @@
+   <view class="logins">
+    <navigator url="denglu/denglu" class="yuan">
+         <view class="yuans">
+            <image src="../../images/ci_01.jpg" style="width:150rpx;height:150rpx;border-radius:50%;"></image>
+         </view>
+         <view style="margin-left:30rpx;margin-top:10rpx;">登 录</view>
+      </navigator>
+    </view>  
+  
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell" bindtap="open">
+                <view class="weui-cell__hd">
+                    <image src="../../images/phone.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">客服电话:15034539337</view>
+                <view class="weui-cell__ft">(8:00-20:00)</view>
+            </view>
+           
+        </view> 
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          

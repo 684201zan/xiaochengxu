@@ -1,0 +1,22 @@
+.logins{
+  width:100%;
+  height:400rpx;
+  background:rgb(245,245,245);
+  position:relative;
+}
+.yuan{
+  width:200rpx;
+  height:200rpx;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+}
+.yuans{
+  width:150rpx;
+  height:150rpx;
+  background:white;
+  border-radius:100%;
+}

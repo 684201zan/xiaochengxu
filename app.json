@@ -1,0 +1,29 @@
+{
+ "pages":[
+    "pages/index/index",
+    "pages/gouwuche/gouwuche",
+    "pages/gouwuche/map/map",
+    "pages/logs/logs",
+    "pages/logs/denglu/denglu",
+    "pages/logs/zhuce/zhuce"
+   ],
+ "window":{
+  "navigationBarBackgroundColor": "rgb(64,160,86)",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "XYJY平台"
+ },
+ "tabBar": {
+   "list": [{
+     "pagePath": "pages/index/index",
+     "text": "钱币"
+   },
+   {
+     "pagePath":"pages/logs/logs",
+     "text":"个人中心"
+     }
+   ],
+   "position":"top"
+   },
+   "debug":true
+  
+}

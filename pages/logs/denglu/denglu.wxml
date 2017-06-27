@@ -1,0 +1,11 @@
+        <view class="denglu"> 登录/注册页面</view>
+         <view class="weui-cell_input" style="margin-top:10rpx;padding-left:20rpx;">
+                <view class="weui-cell__bd">
+                    账号：<input class="weui-input" placeholder="请输入账号" />
+                    密码：<input class="weui-input" placeholder="请输入密码"/>
+                </view>
+        </view>
+                <view class="page__bd page__bd_spacing">
+                     <button class="weui-btn" type="primary">登录</button>
+                 </view>
+            

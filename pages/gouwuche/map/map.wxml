@@ -1,0 +1,55 @@
+<!--地址-->
+<view class="maps">
+   <view bindtap="chooseLocationTap">点击获取位置</view>
+   <view>{{location.name}}</view>
+</view>
+<!--支付方式-->
+<view class="zhifufangshi">支付方式</view>
+<view class="page">
+  <view class="page__bd">
+      <view class="weui-cells weui-cells_after-title" style="margin-top:10rpx;">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">微信支付</view>
+                <view class="weui-cell__ft">
+                    <checkbox value="{{item.name}}" checked="{{item.checked}}"/>
+                </view>
+            </view>
+             <view class="weui-cell">
+                <view class="weui-cell__bd">其他支付方式</view>
+                <view class="weui-cell__ft">
+                   <checkbox value="{{item.name}}" checked="{{item.checked}}"/>
+                </view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">送达日期</view>
+                <view class="weui-cell__ft">今日</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">送达时间</view>
+                <view class="weui-cell__ft">6:00-20:00</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">备注</view>
+                <view class="weui-cell__ft">请输入特殊要求</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__bd">是否索要发票</view>
+                <view class="weui-cell__ft">
+                   <checkbox value="{{item.name}}" checked="{{item.checked}}"/>
+                </view>
+            </view>
+        </view>
+   </view>
+   </view> 
+   <!--购物车下面 -->
+   <view class="cart-tab-wrp">
+      <view class="cart-item-total cart-tab-item">
+        <text class="cart-item-total-price">￥{{total.money}}</text>
+      </view>
+      <view class="cart-tab-item">
+        <view  class="cart-tab-item-btn" bindtap="pay">确认下单</view>
+      </view>
+    </view>
+   
+  
+     

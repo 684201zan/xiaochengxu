@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<!--标题栏-->
+<view class="title-box">
+  常用钱币商家
+</view>
+<!--主要内容-->
+ <block wx:for="{{arrs}}">
+   <view  class="big-box" >
+     <navigator url="../gouwuche/gouwuche" hover-class="navigator-hover"> 
+      <image src="{{src}}" style="width:198rpx;height:128rpx;  padding-top:16rpx;margin-left:20rpx;" ></image>
+     <view class="shop-message">
+        <view class="shopname">{{item.title}}</view>
+        <view class="shopstatus">月售{{item.number}}件</view>
+    </view>
+    </navigator>
+      </view>
+   </block>
+
